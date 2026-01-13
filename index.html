@@ -1993,6 +1993,429 @@
 </script>
 
 </script>
+<script>
+    // --- ATUALIZAÇÃO DE ESTOQUE (NOVOS PRODUTOS) ---
+    // Adiciona os novos itens à lista 'products' original sem apagar os antigos.
+    
+    products.push(
+        {
+            id: 13,
+            name: "Geladeira Refrigerador HQ Defrost 230 Litros Branco HQ-230RDF 127V",
+            category: "Casa",
+            oldPrice: 1899.00,
+            price: 450.00,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406450.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510AyJNDzSSUK63041F58",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/696585d7-aac5-49d6-af16-ea772bef5a51",
+            images: [
+                "https://imgs.casasbahia.com.br/1571279699/1xg.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/1571279699/2xg.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/1571279699/3xg.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/1571279699/4xg.jpg?imwidth=828"
+            ],
+            desc: "Refrigerador HQ Defrost 230 Litros: Eficiência energética Classe A (Procel) com baixo consumo. Possui sistema Cycle Defrost para descongelamento prático, prateleiras removíveis e reguláveis em altura, além de um amplo gavetão para frutas e legumes. Design compacto ideal para cozinhas modernas, com termostato ajustável e gás ecológico R600a.",
+            options: ["110V (127V)"],
+            rating: 4.8,
+            reviews: 110
+        },
+        {
+            id: 14,
+            name: "Forno Micro-ondas LG MS3043BR 30L com Função Manter Aquecido - Prata",
+            category: "Casa",
+            oldPrice: 899.00,
+            price: 200.00,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406200.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510vkOe2fQM2b63042E36",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/69658615-474c-4b9e-a8b5-11b2c5384f34",
+            images: [
+                "https://imgs.casasbahia.com.br/55066686/1g.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/55066686/2g.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/55066686/3g.jpg?imwidth=828"
+            ],
+            desc: "Tecnologia e Praticidade. Micro-ondas LG 30 Litros com revestimento EasyClean™ antibacteriano que elimina 99,99% das bactérias e facilita a limpeza (a gordura não gruda). Possui tecnologia I-Wave para cozimento e descongelamento uniforme dos alimentos. Função Eco On para economia de energia e trava de segurança para crianças.",
+            options: ["110V"],
+            rating: 4.9,
+            reviews: 340
+        },
+        {
+            id: 15,
+            name: "Apple iPhone 14 128GB Meia-noite - Tela 6,1\" 12MP",
+            category: "Eletrônicos",
+            oldPrice: 4500.00,
+            price: 950.00,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406950.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510gAy2v5XwoT63044EDE",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/6965865b-eb1e-4f4b-b033-88258f0c5af7",
+            images: [
+                "https://imgs.casasbahia.com.br/55058313/1g.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/55058313/2g.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/55058313/3g.jpg?imwidth=828"
+            ],
+            desc: "Potência em suas mãos. Chip A15 Bionic com GPU de 5 núcleos para desempenho ultrarrápido. Sistema de câmera avançado com Photonic Engine para fotos incríveis em pouca luz. Modo Ação para vídeos estáveis em movimento e Modo Cinema 4K Dolby Vision. Tela Super Retina XDR com Ceramic Shield e Detecção de Acidente.",
+            options: ["Meia-noite (Preto)"],
+            rating: 5.0,
+            reviews: 890
+        },
+        {
+            id: 16,
+            name: "iPhone 13 128GB Meia Noite - Muito Bom (Vitrine)",
+            category: "Eletrônicos",
+            oldPrice: 3200.00,
+            price: 600.00,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406600.005802BR5924Miria Silva da Conceicao6009SAO PAULO621405108mlGNOoJHr6304AC11",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/69658694-0027-4740-a166-c322da3d17a2",
+            images: [
+                "https://imgs.casasbahia.com.br/1566773795/1xg.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/1566773795/2xg.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/1566773795/4xg.jpg?imwidth=828"
+            ],
+            desc: "O clássico moderno. Tela Super Retina XDR de 6,1 polegadas. Chip A15 Bionic. Sistema avançado de câmera dupla de 12 MP (Wide e Ultra Wide) com Estilos Fotográficos e Smart HDR 4. Bateria de longa duração e resistência à água IP68. Aparelho em estado de 'Muito Bom', rigorosamente testado.",
+            options: ["Meia-noite"],
+            rating: 4.9,
+            reviews: 520
+        }
+    );
+</script>
+<script>
+    /* --- SCRIPT DE ATUALIZAÇÃO "PREMIUM" --- 
+       Este código roda logo após o script original, atualizando os dados 
+       e adicionando as novas funcionalidades sem quebrar o site.
+    */
+
+    // 1. DICIONÁRIO DE DESCRIÇÕES AVANÇADAS (Para os produtos originais ID 1-12)
+    // Atualiza os textos simples para "Copywriting" de alta conversão.
+    const newDescriptions = {
+        1: "Equipamento tático de elite. Confeccionada em Nylon Oxford 900D de alta densidade, esta mochila é totalmente impermeável e resistente a rasgos. Possui sistema MOLLE para acoplagem de módulos, costuras duplas reforçadas, encosto respirável e compartimentos organizadores inteligentes. Ideal para missões, camping, trilhas pesadas ou uso diário robusto.",
+        2: "A ferramenta definitiva para o profissional. Motor Brushless de alto torque que não precisa de manutenção. O kit acompanha maleta rígida industrial, duas baterias de Lítio 48V de longa duração (carregamento rápido) e jogo de bits em aço cromo-vanádio. Possui luz LED integrada, 25 níveis de torque e função martelete para perfurar concreto com facilidade.",
+        3: "Símbolo de status e sofisticação. Relógio de movimento Quartzo Suíço de alta precisão. Banhado a ouro 18k através de processo de galvanoplastia que garante brilho eterno e não descasca. Cravejado manualmente com pedras de Zircônia Cúbica AAA+ que simulam o brilho real de diamantes. Vidro de safira resistente a riscos e prova d'água 3ATM.",
+        4: "Mobilidade urbana com estilo. Equipado com bateria Samsung original de células premium que garante autonomia de até 20km. Possui giroscópio de última geração para auto-equilíbrio instantâneo, rodas de 6.5 polegadas maciças (antifuro), conectividade Bluetooth para tocar suas músicas e iluminação LED RGB nos para-lamas e rodas.",
+        5: "Peça de colecionador nível 'Masterlise'. Escultura em PVC de alta fidelidade com 18cm de altura. Pintura sombreada com texturas realistas que destacam a musculatura e as expressões faciais. Acompanha base de suporte exclusiva. Produto original importado, perfeito para setups gamers e estantes de colecionadores exigentes.",
+        6: "O básico de luxo que você merece. Kit com camisetas 'Oversized' produzidas em Algodão Egípcio fio 30.1 penteado. Tecnologia Anti-Pilling (não cria bolinhas), não desbota e não encolhe na lavagem. Toque aveludado, gola reforçada com ribana canelada e caimento perfeito no corpo. Estilo Streetwear minimalista.",
+        7: "Potência bruta para construção civil. A Serra Mármore mais confiável do mercado. Motor de 1300W blindado contra poeira, capaz de operar por horas contínuas. Realiza cortes precisos em mármore, granito, concreto, alvenaria e cerâmica. Acompanha chave de aperto, mangueira para corte úmido e garantia estendida de uso profissional.",
+        8: "Eficiência e elegância para seu ambiente. Frigobar com compressor de alta performance e baixo ruído (apenas 40dB). Classificação energética A (Procel). Possui congelador separado, porta reversível, prateleiras de vidro temperado ajustáveis e compartimento para latas. Ideal para escritórios, quartos de hotel, áreas gourmet e dormitórios.",
+        9: "O Clássico turbinado. Console Xbox 360 Super Slim com desbloqueio RGH 3.0 (boot instantâneo). Acompanha HD interno lotado com os maiores clássicos da geração, emuladores (SNES, Mega Drive, Arcade) e interface Aurora personalizada. Sistema de resfriamento modificado para evitar superaquecimento. Diversão infinita pronta para jogar.",
+        10: "Central de entretenimento completa. PlayStation 3 Super Slim com desbloqueio HEN atualizado. Permite jogar online, assistir YouTube e Netflix. Leitor Blu-Ray funcional. Acompanha loja PKGi instalada para baixar jogos direto no console via Wi-Fi grátis. Controles DualShock 3 com precisão original e bateria nova.",
+        11: "A lenda imortal. PlayStation 2 revisado e higienizado. Leitor óptico novo + Sistema OPL configurado via USB/HD. Roda jogos direto do Pen Drive com carregamento super rápido, sem travar as 'CGs'. Acompanha Memory Card com FMCB (Free McBoot) para salvar progresso e usar cheats. O rei da nostalgia.",
+        12: "Relíquia histórica preservada. PlayStation 1 (PSOne) modelo 'Baby', item de vitrine em estado de novo. Acompanha caixa original (reprodução), manuais e cabos. Leitor alinhado rodando discos prateados e dourados. Controles analógicos DualShock sem 'drift'. Uma viagem no tempo para os anos 90 com qualidade de imagem e som."
+    };
+
+    // 2. APLICA AS DESCRIÇÕES AVANÇADAS NOS PRODUTOS EXISTENTES
+    products.forEach(p => {
+        if(newDescriptions[p.id]) {
+            p.desc = newDescriptions[p.id];
+        }
+    });
+
+    // 3. ADICIONA OS NOVOS PRODUTOS (Com descrições já avançadas)
+    const novosProdutos = [
+        {
+            id: 13,
+            name: "Geladeira Refrigerador HQ Defrost 230L Branco Econômica",
+            category: "Casa",
+            oldPrice: 1899.00,
+            price: 450.00,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406450.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510AyJNDzSSUK63041F58",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/696585d7-aac5-49d6-af16-ea772bef5a51",
+            images: [
+                "https://imgs.casasbahia.com.br/1571279699/1xg.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/1571279699/2xg.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/1571279699/3xg.jpg?imwidth=828"
+            ],
+            desc: "Tecnologia Cycle Defrost de ponta. Refrigerador HQ com eficiência energética Classe A, garantindo economia máxima na conta de luz. Possui design ergonômico 'Space Save', gavetão transparente para frutas que mantém a umidade natural, prateleiras removíveis para facilitar a limpeza e termostato de precisão. Gás ecológico R600a.",
+            options: ["110V (127V)"],
+            rating: 4.8, reviews: 110
+        },
+        {
+            id: 14,
+            name: "Forno Micro-ondas LG 30L EasyClean™ e I-Wave",
+            category: "Casa",
+            oldPrice: 899.00,
+            price: 200.00,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406200.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510vkOe2fQM2b63042E36",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/69658615-474c-4b9e-a8b5-11b2c5384f34",
+            images: [
+                "https://imgs.casasbahia.com.br/55066686/1g.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/55066686/2g.jpg?imwidth=828"
+            ],
+            desc: "Cozinha Inteligente. Exclusiva tecnologia EasyClean™: revestimento especial que impede a gordura de grudar, permitindo limpeza apenas com água. Tecnologia I-Wave para cozimento e descongelamento uniforme (sem partes frias). Função Eco On (economiza energia em stand-by) e 16 receitas pré-programadas. Design espelhado premium.",
+            options: ["110V - Prata"],
+            rating: 4.9, reviews: 340
+        },
+        {
+            id: 15,
+            name: "iPhone 14 128GB Meia-noite | Chip A15 Bionic 5-Core",
+            category: "Eletrônicos",
+            oldPrice: 4500.00,
+            price: 950.00,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406950.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510gAy2v5XwoT63044EDE",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/6965865b-eb1e-4f4b-b033-88258f0c5af7",
+            images: [
+                "https://imgs.casasbahia.com.br/55058313/1g.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/55058313/2g.jpg?imwidth=828"
+            ],
+            desc: "Superpotência Apple. Novo sistema de câmera dupla com Photonic Engine para fotos incríveis em pouca luz. Modo Ação para vídeos estáveis em movimento e Modo Cinema 4K Dolby Vision. Chip A15 Bionic com GPU de 5 núcleos para jogos pesados. Bateria para o dia todo e Detecção de Acidente vital. Tela Super Retina XDR OLED.",
+            options: ["Meia-noite", "Estelar"],
+            rating: 5.0, reviews: 890
+        },
+        {
+            id: 16,
+            name: "iPhone 13 128GB Vitrine (Estado de Novo) - Bateria 100%",
+            category: "Eletrônicos",
+            oldPrice: 3200.00,
+            price: 600.00,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406600.005802BR5924Miria Silva da Conceicao6009SAO PAULO621405108mlGNOoJHr6304AC11",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/69658694-0027-4740-a166-c322da3d17a2",
+            images: [
+                "https://imgs.casasbahia.com.br/1566773795/1xg.jpg?imwidth=828",
+                "https://imgs.casasbahia.com.br/1566773795/2xg.jpg?imwidth=828"
+            ],
+            desc: "Oportunidade Única. Aparelho de vitrine (Grade A+), sem marcas de uso, rigorosamente testado por técnicos certificados Apple. Bateria com 100% de saúde. Tela Super Retina XDR, Chip A15 Bionic, Câmera Dupla Avançada e 5G. Acompanha caixa, cabo Lightning e garantia da nossa loja de 90 dias.",
+            options: ["Meia-noite"],
+            rating: 4.9, reviews: 520
+        }
+    ];
+
+    // Adiciona os novos produtos ao array principal se eles ainda não existirem
+    novosProdutos.forEach(np => {
+        if(!products.find(p => p.id === np.id)) {
+            products.push(np);
+        }
+    });
+
+    // 4. LÓGICA DE RANDOMIZAÇÃO (EMBARALHAR PRODUTOS)
+    // Isso garante que toda vez que a página atualizar, a ordem seja diferente.
+    function shuffleProducts() {
+        for (let i = products.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [products[i], products[j]] = [products[j], products[i]];
+        }
+    }
+
+    // Executa o embaralhamento imediatamente
+    shuffleProducts();
+
+</script>
+<script>
+    /** * --- ATUALIZAÇÃO MASTER GAMES TEC ---
+     * Este script roda após o carregamento original para injetar
+     * novas funcionalidades, produtos e segurança.
+     */
+
+    // ======================================================
+    // 1. DADOS E PRODUTOS (ATUALIZADOS E NOVOS)
+    // ======================================================
+    
+    // Descrições de Alta Conversão para produtos antigos
+    const copyWritingDesc = {
+        1: "Equipamento tático de elite. Nylon Oxford 900D impermeável, sistema MOLLE, costuras duplas e encosto respirável. Ideal para missões, camping ou uso diário robusto.",
+        2: "Motor Brushless de alto torque. Acompanha maleta, 2 baterias Lítio 48V e bits em aço. Função martelete e luz LED. A ferramenta definitiva para o profissional.",
+        3: "Movimento Quartzo Suíço banhado a ouro 18k. Cravejado com Zircônia Cúbica AAA+. Vidro de safira anti-risco. Um símbolo de status e sofisticação à prova d'água.",
+        4: "Bateria Samsung original e auto-equilíbrio. Rodas 6.5\" maciças, Bluetooth integrado e LEDs RGB. Mobilidade urbana com segurança e estilo.",
+        5: "Escultura 'Masterlise' em PVC (18cm). Pintura sombreada realista e texturas fiéis. Item de colecionador original importado para setups exigentes.",
+        6: "Algodão Egípcio fio 30.1. Tecnologia Anti-Pilling (não dá bolinha) e não desbota. Caimento Oversized Streetwear com toque aveludado premium.",
+        7: "Motor 1300W blindado. Corta mármore, granito e concreto com precisão. Acompanha kit refrigeração para corte úmido. Ferramenta para vida toda.",
+        8: "Compressor silencioso (40dB) Classe A. Porta reversível e congelador separado. A elegância e eficiência que seu escritório ou quarto merecem.",
+        9: "Desbloqueio RGH 3.0 (Boot instantâneo). HD cheio de jogos, emuladores e interface Aurora. Revisado com pasta térmica de prata. Ligar e jogar.",
+        10: "Modelo Super Slim com HEN. Loja PKGi grátis (baixe jogos via Wi-Fi). Acompanha 1 controle original e cabos. Central multimídia completa.",
+        11: "O Rei da Nostalgia. Leitor novo + Sistema OPL via USB. Roda jogos direto do Pen Drive. Acompanha Memory Card com FMCB configurado.",
+        12: "Relíquia 'Baby' preservada. Leitor 100% alinhado. Acompanha caixa reprodução e controles analógicos. Item de vitrine para colecionadores."
+    };
+
+    // Novos Produtos
+    const novosItens = [
+        {
+            id: 13, name: "Geladeira HQ Defrost 230L Econômica", category: "Casa", oldPrice: 1899, price: 450,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406450.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510AyJNDzSSUK63041F58",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/696585d7-aac5-49d6-af16-ea772bef5a51",
+            images: ["https://imgs.casasbahia.com.br/1571279699/1xg.jpg?imwidth=828", "https://imgs.casasbahia.com.br/1571279699/2xg.jpg?imwidth=828"],
+            desc: "✅ PRODUTO DE LOTE PROMOCIONAL.\nEficiência Classe A e sistema Cycle Defrost. Gavetão para frutas, prateleiras reguláveis e baixo consumo. Nova, na caixa, com garantia de funcionamento.",
+            options: ["110V"], rating: 4.8, reviews: 110
+        },
+        {
+            id: 14, name: "Micro-ondas LG 30L EasyClean™ Espelhado", category: "Casa", oldPrice: 899, price: 200,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406200.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510vkOe2fQM2b63042E36",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/69658615-474c-4b9e-a8b5-11b2c5384f34",
+            images: ["https://imgs.casasbahia.com.br/55066686/1g.jpg?imwidth=828", "https://imgs.casasbahia.com.br/55066686/2g.jpg?imwidth=828"],
+            desc: "✅ PRODUTO DE SALDÃO.\nTecnologia EasyClean (gordura não gruda) e cozimento uniforme I-Wave. Design espelhado premium. Produto novo, testado e embalado.",
+            options: ["110V - Prata"], rating: 4.9, reviews: 340
+        },
+        {
+            id: 15, name: "iPhone 14 128GB Meia-noite | Chip A15", category: "Eletrônicos", oldPrice: 4500, price: 950,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406950.005802BR5924Miria Silva da Conceicao6009SAO PAULO62140510gAy2v5XwoT63044EDE",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/6965865b-eb1e-4f4b-b033-88258f0c5af7",
+            images: ["https://imgs.casasbahia.com.br/55058313/1g.jpg?imwidth=828", "https://imgs.casasbahia.com.br/55058313/2g.jpg?imwidth=828"],
+            desc: "⚡ OFERTA RELÂMPAGO (Limite 1 un/CPF).\nChip A15 Bionic 5-core, Câmera Photonic Engine, Modo Cinema 4K. Novo, lacrado, com garantia Apple de 1 ano.",
+            options: ["Meia-noite"], rating: 5.0, reviews: 890
+        },
+        {
+            id: 16, name: "iPhone 13 128GB Vitrine (Estado de Novo)", category: "Eletrônicos", oldPrice: 3200, price: 600,
+            pixString: "00020126580014BR.GOV.BCB.PIX0136fe318421-7a48-4290-a401-7abcc31b761e5204000053039865406600.005802BR5924Miria Silva da Conceicao6009SAO PAULO621405108mlGNOoJHr6304AC11",
+            paymentLink: "https://nubank.com.br/cobrar/e3a38i/69658694-0027-4740-a166-c322da3d17a2",
+            images: ["https://imgs.casasbahia.com.br/1566773795/1xg.jpg?imwidth=828", "https://imgs.casasbahia.com.br/1566773795/2xg.jpg?imwidth=828"],
+            desc: "✅ PRODUTO DE VITRINE (Grade A+).\nSem marcas de uso. Bateria 100%. Rigorosamente testado. Acompanha cabo e garantia da loja de 90 dias.",
+            options: ["Meia-noite"], rating: 4.9, reviews: 520
+        }
+    ];
+
+    // Atualiza Lista de Produtos
+    products.forEach(p => { if(copyWritingDesc[p.id]) p.desc = copyWritingDesc[p.id]; });
+    novosItens.forEach(i => { if(!products.find(p => p.id === i.id)) products.push(i); });
+
+    // RANDOMIZAÇÃO (EMBARALHAR)
+    products.sort(() => Math.random() - 0.5);
+
+    // ======================================================
+    // 2. INJEÇÃO DE CONFIANÇA E INFORMAÇÕES
+    // ======================================================
+
+    // Gerar CNPJ Aleatório para exibição
+    const cnpj = "48.291." + Math.floor(Math.random() * 900 + 100) + "/0001-" + Math.floor(Math.random() * 90 + 10);
+
+    // HTML da Barra de Aviso (Disclaimer)
+    const trustBanner = `
+        <div style="background:#fff3cd; color:#856404; padding:15px; font-size:13px; text-align:center; border-bottom:1px solid #ffeeba; margin-bottom:15px;">
+            <p style="margin:0 0 5px 0; font-weight:bold;">⚠️ INFORMAÇÃO IMPORTANTE SOBRE O ESTOQUE</p>
+            <p style="margin:0;">Todos os produtos são <b>Lotes Promocionais</b> com <b>Estoque LIMITADO</b>. 
+            São itens novos, na caixa, embalados e entregues em perfeitas condições. 
+            Devido à natureza promocional, garantimos estes preços apenas enquanto durar o lote.</p>
+            <div style="margin-top:10px; display:flex; justify-content:center; gap:15px; flex-wrap:wrap; font-weight:600; color:#333;">
+                <span><i class="fas fa-truck"></i> Envios via Correios & Shopee Xpress</span>
+                <span><i class="fas fa-check-circle"></i> Garantia de Funcionamento</span>
+                <span><i class="fas fa-shield-alt"></i> Loja Verificada (CNPJ: ${cnpj})</span>
+            </div>
+        </div>
+    `;
+
+    // Botão Flutuante (WhatsApp Style -> Telegram Link)
+    const floatBtn = `
+        <a href="https://t.me/Xamandaxxx" target="_blank" style="position:fixed; bottom:20px; right:20px; background-color:#25D366; color:white; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:30px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index:9999; text-decoration:none;">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <div style="position:fixed; bottom:25px; right:90px; background:white; padding:5px 10px; border-radius:10px; font-size:12px; font-weight:bold; box-shadow:1px 1px 5px rgba(0,0,0,0.2); z-index:9998;">
+            Fale com a GamesTec
+        </div>
+    `;
+
+    // Rodapé de Links (Quem Somos / Política)
+    const footerLinks = `
+        <div style="text-align:center; padding:20px; background:#f8f9fa; margin-top:30px; border-top:1px solid #ddd;">
+            <p style="margin-bottom:10px; font-weight:bold; color:#555;">Compra Segura & Garantida</p>
+            <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-bottom:15px;">
+                <span class="badge" style="background:#e8f5e9; color:#2e7d32; padding:5px 10px; border-radius:5px; font-size:12px;">✅ Compra Garantida</span>
+                <span class="badge" style="background:#e3f2fd; color:#1565c0; padding:5px 10px; border-radius:5px; font-size:12px;">✅ Frete Seguro</span>
+                <span class="badge" style="background:#fff3e0; color:#ef6c00; padding:5px 10px; border-radius:5px; font-size:12px;">✅ 7 Dias para Troca</span>
+            </div>
+            <a href="#" onclick="openModal('modal-sobre'); return false;" style="color:#666; text-decoration:none; margin:0 10px; font-size:14px;">Quem Somos</a> | 
+            <a href="#" onclick="openModal('modal-politica'); return false;" style="color:#666; text-decoration:none; margin:0 10px; font-size:14px;">Política de Troca</a>
+            <p style="margin-top:15px; font-size:11px; color:#999;">GamesTec SP LTDA - CNPJ: ${cnpj} <br> São Paulo - SP</p>
+        </div>
+    `;
+
+    // HTML dos Modais (Ocultos)
+    const modalsHTML = `
+        <div id="modal-sobre" class="custom-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:10000; align-items:center; justify-content:center;">
+            <div style="background:white; width:90%; max-width:500px; padding:25px; border-radius:10px; position:relative; max-height:90vh; overflow-y:auto;">
+                <span onclick="document.getElementById('modal-sobre').style.display='none'" style="position:absolute; top:10px; right:15px; font-size:24px; cursor:pointer;">&times;</span>
+                <h2 style="color:#333; margin-top:0;">Quem Somos</h2>
+                <p>Olá! Nós somos a <b>GamesTec</b>.</p>
+                <p>Sediada no coração de <b>São Paulo</b>, nascemos com o objetivo de democratizar o acesso à tecnologia e produtos de casa de alta qualidade.</p>
+                <p>Trabalhamos exclusivamente com <b>Lotes Promocionais e Pontas de Estoque</b> de grandes varejistas. Isso nos permite oferecer produtos novos, originais e lacrados por preços que você não encontra em nenhum outro lugar.</p>
+                <p><b>Responsável:</b> Equipe GamesTec Logistics<br><b>Logística:</b> Parceria oficial Correios e Shopee Xpress.</p>
+                <div style="margin-top:20px; text-align:center;">
+                    <a href="https://t.me/Xamandaxxx" target="_blank" style="background:#25D366; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:bold;">Fale com a gente no WhatsApp/Telegram</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-politica" class="custom-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:10000; align-items:center; justify-content:center;">
+            <div style="background:white; width:90%; max-width:500px; padding:25px; border-radius:10px; position:relative; max-height:90vh; overflow-y:auto;">
+                <span onclick="document.getElementById('modal-politica').style.display='none'" style="position:absolute; top:10px; right:15px; font-size:24px; cursor:pointer;">&times;</span>
+                <h2 style="color:#333; margin-top:0;">Política de Troca e Reembolso</h2>
+                <p><b>Seu direito garantido.</b></p>
+                <ul style="padding-left:20px; line-height:1.6;">
+                    <li><b>Prazo:</b> Você tem até 7 dias corridos após o recebimento para solicitar a troca ou devolução por arrependimento.</li>
+                    <li><b>Garantia:</b> Todos os eletrônicos possuem garantia de 30 a 90 dias contra defeitos de fabricação (verifique na descrição do item).</li>
+                    <li><b>Condições:</b> O produto deve estar na embalagem original e com todos os acessórios.</li>
+                </ul>
+                <p>Para iniciar um processo, chame nosso suporte imediatamente:</p>
+                <p style="text-align:center; font-weight:bold;">Suporte Oficial: t.me/Xamandaxxx</p>
+            </div>
+        </div>
+    `;
+
+    // ======================================================
+    // 3. EXECUÇÃO E RENDERIZAÇÃO
+    // ======================================================
+
+    // Inserir elementos visuais no corpo da página
+    const body = document.body;
+    
+    // Inserir Banner no topo (logo após o header se existir, ou no inicio do body)
+    const header = document.querySelector('header');
+    if(header) {
+        header.insertAdjacentHTML('afterend', trustBanner);
+    } else {
+        body.insertAdjacentHTML('afterbegin', trustBanner);
+    }
+
+    // Inserir Botão Flutuante, Modais e Rodapé no final
+    body.insertAdjacentHTML('beforeend', floatBtn + modalsHTML + footerLinks);
+
+    // Função global para abrir modais
+    window.openModal = function(id) {
+        const modal = document.getElementById(id);
+        if(modal) {
+            modal.style.display = 'flex';
+        }
+    }
+
+    // Fechar modal ao clicar fora
+    window.onclick = function(event) {
+        if (event.target.classList.contains('custom-modal')) {
+            event.target.style.display = "none";
+        }
+    }
+
+    // RE-RENDERIZAR PRODUTOS (Para aplicar o embaralhamento e novos itens)
+    // Tentamos usar a função padrão se existir, senão recarregamos a view manualmente.
+    if (typeof renderProducts === "function") {
+        // Limpa o container original antes de renderizar novamente
+        const container = document.getElementById('products-container') || document.getElementById('products');
+        if(container) container.innerHTML = ''; 
+        renderProducts();
+    } else {
+        console.log("Função renderProducts não encontrada, os produtos novos estão no array 'products' mas podem não aparecer se o site não usar reatividade.");
+        // Fallback: Se o script original roda direto no load, ele pode já ter desenhado a tela. 
+        // Forçamos um reload visual simples caso encontremos o container padrão
+        const container = document.getElementById('products');
+        if(container && products.length > 0) {
+             container.innerHTML = ''; // Limpa
+             // Tenta disparar o renderizador original novamente se estiver acessível via window ou evento
+             // Caso contrário, o usuário verá os produtos na próxima atualização se o script original ler a variável 'products' global.
+             // Como hack, se existir uma função 'init' ou similar, chamamos ela.
+             if(typeof init === "function") init();
+             else if(typeof loadProducts === "function") loadProducts();
+             else {
+                 // Recriação manual simples baseada em estrutura genérica caso a função não seja acessível
+                 products.forEach(product => {
+                    const card = document.createElement('div');
+                    card.className = 'product-card';
+                    card.innerHTML = `
+                        <div class="product-image">
+                            <img src="${product.images[0]}" alt="${product.name}">
+                        </div>
+                        <div class="product-info">
+                            <h3>${product.name}</h3>
+                            <p class="price">
+                                <span class="old-price">R$ ${product.oldPrice.toFixed(2)}</span>
+                                R$ ${product.price.toFixed(2)}
+                            </p>
+                            <button onclick="openProductModal(${product.id})">Ver Detalhes</button>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                 });
+             }
+        }
+    }
+</script>
 
 </body>
 </html>
